@@ -1,6 +1,6 @@
 // зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
 
-let numberArray = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
+// let numberArray = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
 
 // 1. перебрати його циклом while
 
@@ -92,12 +92,12 @@ let numberArray = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
 
 // 5. перебрати циклом while та вивести  числа тільки парні  значення (звородній)
 
-// i = 0;
-// while (i > numberArray.length - 1) {
+// let i = numberArray.length;
+// while (i > -1) {
 //     if (i % 2 === 0) {
 //         console.log(numberArray[i]);
 //     }
-//     i--;
+//     i = i-1;
 // }
 
 
@@ -112,28 +112,27 @@ let numberArray = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
 
 // 3. перебрати циклом while та вивести  числа тільки з непарним індексом   (звородній)
 
-// i = 0;
-// while (i < numberArray.length) {
+// let i = numberArray.length;
+// while (i > -1) {
 //     if (i % 2 !== 0) {
 //         console.log(numberArray[i]);
 //     }
-//     i++;
+//     i = i-1;
 // }
 
 
-// 2. перебрати його циклом for
+// 2. перебрати його циклом for (звородній)
 
 // for (let i = numberArray.length - 1; i >= 0; i--) {
 //     console.log(numberArray[j]);
 
 
+// 1. перебрати його циклом while (звородній)
 
-// 1. перебрати його циклом while
-
-// i = 0;
-// while (i < numberArray.length) {
+// let i = numberArray.length;
+// while (i > -1) {
 //     console.log(numberArray[i]);
-//     i++;
+//     i = i-1;
 // }
 
 
