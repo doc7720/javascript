@@ -2,14 +2,14 @@
 // (в першу, другу, третю или четверту частину години).
 
 
-// let time = prompt('Введіть число');
-// if (time >= 0 && time <= 14) {
+// let number = prompt('Введіть число');
+// if (number >= 0 && number <= 14) {
 //     console.log('Перша частина години');
-// } else if (time >= 15 && time <= 29) {
+// } else if (number >= 15 && number <= 29) {
 //     console.log('Друга частина години');
-// } else if (time >= 30 && time <= 44) {
+// } else if (number >= 30 && number <= 44) {
 //     console.log('Третя частина години');
-// } else if (time >= 45 && time <= 59) {
+// } else if (number >= 45 && number <= 59) {
 //     console.log('Четверта частина години');
 // } else {
 //     console.log('Невірне число');
@@ -19,12 +19,12 @@
 // - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
 
 
-// let day = prompt('Введіть число');
-// if (day >= 1 && day <= 10) {
+// let number = prompt('Введіть число');
+// if (number >= 1 && number <= 10) {
 //     console.log('Перша половина місяця');
-// } else if (day >= 11 && day <= 20) {
+// } else if (number >= 11 && number <= 20) {
 //     console.log('Друга половина місяця');
-// } else if (day >= 21 && day <= 31) {
+// } else if (number >= 21 && number <= 31) {
 //     console.log('Третя половина місяця');
 // } else {
 //     console.log('Невірне число');
@@ -47,7 +47,7 @@
 
 
 // let a = prompt('Введіть число');
-// if (a != 0) {
+// if (a !== 0) {
 //     console.log('Вірно');
 // } else {
 //     console.log('Невірно');
@@ -55,7 +55,7 @@
 
 // let a = 1;
 // let test = prompt('Введіть число');
-// if (test != 1) {
+// if (test !== 1) {
 //     console.log('Вірно');
 // } else {
 //     console.log('Невірно');
@@ -63,7 +63,7 @@
 
 // let a = 0;
 // let test = prompt('Введіть число');
-// if (test != -3) {
+// if (test !== -3) {
 //     console.log('Вірно');
 // } else {
 //     console.log('Невірно');
@@ -71,7 +71,7 @@
 
 // let a = -3;
 // let test = prompt('Введіть число');
-// if (test != -3) {
+// if (test !== -3) {
 //     console.log('Вірно');
 // } else {
 //     console.log('Невірно');
@@ -81,8 +81,8 @@
 // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день.
 
 
-// let routine = prompt('Введіть порядковий номер дня тижня');
-// switch (routine) {
+// let number = prompt('Введіть порядковий номер дня тижня');
+// switch (number) {
 //     case '1':
 //         console.log('Відремонтувати авто');
 //         break;
