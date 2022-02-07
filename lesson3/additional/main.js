@@ -51,7 +51,7 @@
 // 3. Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним.
 
 // for (let i = 0; i < array.length; i+=3) {
-//     if (array[i] % 2 == 0) {
+//     if (array[i] % 2 === 0) {
 //         console.log(array[i]);
 //     }
 // }
