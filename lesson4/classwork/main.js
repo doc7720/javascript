@@ -63,37 +63,51 @@
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
 
-// let arraySum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// function SumElements (array) {
-//     let sum = 0;
-//     for (const arrayElement of array) {
-//     sum = arrayElement;
-//     sum = arrayElement + sum;
-//     }
-//     return sum;
-// }
-// document.write(SumElements(arraySum));
+let arraySum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function SumElements (array) {
+    let sum = 0;
+    for (const arrayElement of array) {
+    sum = arrayElement;
+    sum = arrayElement + sum;
+    }
+    return sum;
+}
+document.write(SumElements(arraySum));
 
 
 // - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
 
 
-// let arrayMedium = [12, 28, 20];
-// function mediumElements(array) {
-//     let sum = 0;
-//     for (const arrayElement of array) {
-//         sum = arrayElement;
-//         sum = arrayElement + sum;
-//     }
-//     return sum/array.length;
-// }
-// document.write(mediumElements(arrayMedium));
+let arrayMedium = [12, 28, 20];
+function mediumElements(array) {
+    let sum = 0;
+    for (const arrayElement of array) {
+        sum = arrayElement;
+        sum = arrayElement + sum;
+    }
+    return sum/array.length;
+}
+document.write(mediumElements(arrayMedium));
 
 
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 
 
-
+// function minMax(array) {
+//     let min = arguments[0];
+//     let max = arguments[0];
+//     for (const element of arguments) {
+//         if (element > max) {
+//             max = element;
+//         }
+//         if (element < min) {
+//             min = element;
+//         }
+//     }
+//     console.log(max);
+//     return min;
+// }
+// document.write(minMax(20, 55, 11, 155, 2512));
 
 
 // - створити функцію яка заповнює масив рандомними числами
@@ -113,7 +127,24 @@
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
 
 
-
+// function random(min, limit) {
+//     let array = [];
+//     for (let i = 0; i < min; i++) {
+//     array.push(Math.round(Math.random() * limit));
+//     }
+//     return array;
+// }
+// document.write(random(20, 100));
 
 
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+
+
+let array = [12, 14, 15, 17];
+function reverse(array) {
+    for (let i = array.length - 1; j = 0; i >= 0, i++, j--) {
+    array[i] = newArray[j];
+    }
+    return newArray;
+}
+console.log(reverse(array));
