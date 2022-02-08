@@ -91,9 +91,9 @@
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 
 
-// function minMax(array) {
+// function minMax() {
 //     let min = arguments[0];
-//     let max = arguments[0];
+//     let max = 0;
 //     for (const element of arguments) {
 //         if (element > max) {
 //             max = element;
@@ -105,7 +105,7 @@
 //     console.log(max);
 //     return min;
 // }
-// document.write(minMax(20, 55, 11, 155, 2512));
+// document.write(minMax(20, 55, 11, 155, 2512,));
 
 
 // - створити функцію яка заповнює масив рандомними числами
