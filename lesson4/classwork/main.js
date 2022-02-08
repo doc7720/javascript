@@ -63,31 +63,29 @@
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
 
-let arraySum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-function SumElements (array) {
-    let sum = 0;
-    for (const arrayElement of array) {
-    sum = arrayElement;
-    sum = arrayElement + sum;
-    }
-    return sum;
-}
-document.write(SumElements(arraySum));
+// let arraySum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// function SumElements (array) {
+//     let sum = 0;
+//     for (const arrayElement of array) {
+//     sum = arrayElement + sum;
+//     }
+//     return sum;
+// }
+// document.write(SumElements(arraySum));
 
 
 // - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
 
 
-let arrayMedium = [12, 28, 20];
-function mediumElements(array) {
-    let sum = 0;
-    for (const arrayElement of array) {
-        sum = arrayElement;
-        sum = arrayElement + sum;
-    }
-    return sum/array.length;
-}
-document.write(mediumElements(arrayMedium));
+// let arrayMedium = [12, 28, 20];
+// function mediumElements(array) {
+//     let sum = 0;
+//     for (const arrayElement of array) {
+//         sum = arrayElement + sum;
+//     }
+//     return sum/array.length;
+// }
+// document.write(mediumElements(arrayMedium));
 
 
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
@@ -140,11 +138,15 @@ document.write(mediumElements(arrayMedium));
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 
 
-let array = [12, 14, 15, 17];
-function reverse(array) {
-    for (let i = array.length - 1; j = 0; i >= 0, i++, j--) {
-    array[i] = newArray[j];
-    }
-    return newArray;
-}
-console.log(reverse(array));
+// let array = [12, 14, 15, 17];
+// function reverse(arr) {
+//     let newArray=[];
+//     console.log(arr);
+//     for (let i = arr.length - 1, j = 0; i >= 0; i--, j++) {
+//         console.log(i)
+//           newArray[j] = arr[i];
+//     }
+//     return newArray;
+// }
+// let a = reverse(array);
+// console.log(a);
