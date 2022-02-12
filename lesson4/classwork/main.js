@@ -140,7 +140,7 @@
 
 // let array = [12, 14, 15, 17];
 // function reverse(arr) {
-//     let newArray=[];
+//     let newArray=[];`
 //     console.log(arr);
 //     for (let i = arr.length - 1, j = 0; i >= 0; i--, j++) {
 //         console.log(i)
