@@ -50,8 +50,6 @@
 
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
 //  let str = 'Каждый охотник желает знать';
-// let arr = stringToarray(str);
-// document.writeln(arr); // ['Каждый', 'охотник', 'желает', 'знать']
 
 
 // let stringToArray = (str) => {
@@ -59,7 +57,7 @@
 // }
 // let str = 'Каждый охотник желает знать';
 // let arr = stringToArray(str);
-// document,writeln(arr);
+// document.writeln(arr);
 
 
 // - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
