@@ -11,16 +11,16 @@
 // }
 //
 // let array = [
-//     new User(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', 380626262645),
-//     new User(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', 380387620468),
-//     new User(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', 380109462984),
-//     new User(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', 380290183749),
-//     new User(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', 380124579765),
-//     new User(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', 380123456789),
-//     new User(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', 380865645454),
-//     new User(5, 'Taras', 'Stepanenko', 'step6@gmail.com', 380123212321),
-//     new User(8, 'Andriy', 'Pyatov', 'and1@gmail.com', 380888899665),
-//     new User(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', 380124542666)
+//     new User(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', '380626262645'),
+//     new User(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', '380387620468'),
+//     new User(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', '380109462984'),
+//     new User(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', '380290183749'),
+//     new User(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', '380124579765'),
+//     new User(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', '380123456789'),
+//     new User(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', '380865645454'),
+//     new User(5, 'Taras', 'Stepanenko', 'step6@gmail.com', '380123212321'),
+//     new User(8, 'Andriy', 'Pyatov', 'and1@gmail.com', '380888899665'),
+//     new User(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', '380124542666')
 // ];
 //
 // console.log(array);
@@ -36,16 +36,16 @@
 //     this.phone = phone;
 // }
 // let array = [
-//     new User(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', 380626262645),
-//     new User(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', 380387620468),
-//     new User(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', 380109462984),
-//     new User(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', 380290183749),
-//     new User(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', 380124579765),
-//     new User(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', 380123456789),
-//     new User(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', 380865645454),
-//     new User(5, 'Taras', 'Stepanenko', 'step6@gmail.com', 380123212321),
-//     new User(8, 'Andriy', 'Pyatov', 'and1@gmail.com', 380888899665),
-//     new User(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', 380124542666)
+//     new User(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', '380626262645'),
+//     new User(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', '380387620468'),
+//     new User(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', '380109462984'),
+//     new User(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', '380290183749'),
+//     new User(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', '380124579765'),
+//     new User(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', '380123456789'),
+//     new User(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', '380865645454'),
+//     new User(5, 'Taras', 'Stepanenko', 'step6@gmail.com', '380123212321'),
+//     new User(8, 'Andriy', 'Pyatov', 'and1@gmail.com', '380888899665'),
+//     new User(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', '380124542666')
 // ];
 //
 // let filter = array.filter((key) => {
@@ -66,16 +66,16 @@
 //     this.phone = phone;
 // }
 // let array = [
-//     new User(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', 380626262645),
-//     new User(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', 380387620468),
-//     new User(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', 380109462984),
-//     new User(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', 380290183749),
-//     new User(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', 380124579765),
-//     new User(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', 380123456789),
-//     new User(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', 380865645454),
-//     new User(5, 'Taras', 'Stepanenko', 'step6@gmail.com', 380123212321),
-//     new User(8, 'Andriy', 'Pyatov', 'and1@gmail.com', 380888899665),
-//     new User(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', 380124542666)
+//     new User(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', '380626262645'),
+//     new User(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', '380387620468'),
+//     new User(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', '380109462984'),
+//     new User(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', '380290183749'),
+//     new User(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', '380124579765'),
+//     new User(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', '380123456789'),
+//     new User(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', '380865645454'),
+//     new User(5, 'Taras', 'Stepanenko', 'step6@gmail.com', '380123212321'),
+//     new User(8, 'Andriy', 'Pyatov', 'and1@gmail.com', '380888899665'),
+//     new User(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', '380124542666')
 // ];
 //
 // array.sort((a, b) => a.id - b.id);
@@ -98,16 +98,16 @@
 // }
 //
 // let array = [
-//     new Client(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', 380626262645, ['tesla']),
-//     new Client(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', 380387620468, ['bmw', 'audi', 'porsche']),
-//     new Client(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', 380109462984, ['aston martin', 'bentley', 'bugatti', 'chevrolet']),
-//     new Client(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', 380290183749, ['land rover', 'daewoo']),
-//     new Client(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', 380124579765, ['fiat', 'dodge', 'ferrari', 'seat', 'lotus', 'honda', 'mersedes', 'mazda', 'ford', 'matsubishi']),
-//     new Client(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', 380123456789, ['vovlo', 'cadilac', 'opel', 'renault', 'lexus']),
-//     new Client(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', 380865645454, ['nissan', 'jeep', 'kia', 'peugeot', 'suzuki', 'toyota']),
-//     new Client(5, 'Taras', 'Stepanenko', 'step6@gmail.com', 380123212321, ['chery', 'skoda', 'jaguar', 'subary', 'saab', 'citroen', 'isuzu', 'hyundai', 'dacia']),
-//     new Client(8, 'Andriy', 'Pyatov', 'and1@gmail.com', 380888899665, ['acura', 'lincoln', 'lancia', 'baw', 'baojun', 'byd', 'changan']),
-//     new Client(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', 380124542666, ['gonow', 'derways', 'foton', 'fiqi', 'groz', 'hafei', 'jac', 'rely', ])
+//     new Client(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', '380626262645', ['tesla']),
+//     new Client(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', '380387620468', ['bmw', 'audi', 'porsche']),
+//     new Client(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', '380109462984', ['aston martin', 'bentley', 'bugatti', 'chevrolet']),
+//     new Client(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', '380290183749', ['land rover', 'daewoo']),
+//     new Client(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', '380124579765', ['fiat', 'dodge', 'ferrari', 'seat', 'lotus', 'honda', 'mersedes', 'mazda', 'ford', 'matsubishi']),
+//     new Client(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', '380123456789', ['vovlo', 'cadilac', 'opel', 'renault', 'lexus']),
+//     new Client(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', '380865645454', ['nissan', 'jeep', 'kia', 'peugeot', 'suzuki', 'toyota']),
+//     new Client(5, 'Taras', 'Stepanenko', 'step6@gmail.com', '380123212321', ['chery', 'skoda', 'jaguar', 'subary', 'saab', 'citroen', 'isuzu', 'hyundai', 'dacia']),
+//     new Client(8, 'Andriy', 'Pyatov', 'and1@gmail.com', '380888899665', ['acura', 'lincoln', 'lancia', 'baw', 'baojun', 'byd', 'changan']),
+//     new Client(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', '380124542666', ['gonow', 'derways', 'foton', 'fiqi', 'groz', 'hafei', 'jac', 'rely', ])
 // ];
 
 
@@ -127,16 +127,16 @@
 // }
 //
 // let array = [
-//     new Client(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', 380626262645, ['tesla']),
-//     new Client(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', 380387620468, ['bmw', 'audi', 'porsche']),
-//     new Client(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', 380109462984, ['aston martin', 'bentley', 'bugatti', 'chevrolet']),
-//     new Client(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', 380290183749, ['land rover', 'daewoo']),
-//     new Client(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', 380124579765, ['fiat', 'dodge', 'ferrari', 'seat', 'lotus', 'honda', 'mersedes', 'mazda', 'ford', 'matsubishi']),
-//     new Client(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', 380123456789, ['vovlo', 'cadilac', 'opel', 'renault', 'lexus']),
-//     new Client(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', 380865645454, ['nissan', 'jeep', 'kia', 'peugeot', 'suzuki', 'toyota']),
-//     new Client(5, 'Taras', 'Stepanenko', 'step6@gmail.com', 380123212321, ['chery', 'skoda', 'jaguar', 'subary', 'saab', 'citroen', 'isuzu', 'hyundai', 'dacia']),
-//     new Client(8, 'Andriy', 'Pyatov', 'and1@gmail.com', 380888899665, ['acura', 'lincoln', 'lancia', 'baw', 'baojun', 'byd', 'changan']),
-//     new Client(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', 380124542666, ['gonow', 'derways', 'foton', 'fiqi', 'groz', 'hafei', 'jac', 'rely', ])
+//     new Client(10, 'Bohdan', 'Zastavnyi', 'bz97@gmail.com', '380626262645', ['tesla']),
+//     new Client(4, 'Andriy', 'Shevchenko', 'andshev7@gmail.com', '380387620468', ['bmw', 'audi', 'porsche']),
+//     new Client(2, 'Oleksandr', 'Aliev', 'oa8@gmail.com', '380109462984', ['aston martin', 'bentley', 'bugatti', 'chevrolet']),
+//     new Client(6, 'Oleksandr', 'Zinchenko', 'oz11@gmail.com', '380290183749', ['land rover', 'daewoo']),
+//     new Client(7, 'Yevhen', 'Konoplyanka', 'ykon10@gmail.com', '380124579765', ['fiat', 'dodge', 'ferrari', 'seat', 'lotus', 'honda', 'mersedes', 'mazda', 'ford', 'matsubishi']),
+//     new Client(9, 'Andriy', 'Yarmolenko', 'yarm7@gmail.com', '380123456789', ['vovlo', 'cadilac', 'opel', 'renault', 'lexus']),
+//     new Client(1, 'Ruslan', 'Malinovskyi', 'malina18@gmail.com', '380865645454', ['nissan', 'jeep', 'kia', 'peugeot', 'suzuki', 'toyota']),
+//     new Client(5, 'Taras', 'Stepanenko', 'step6@gmail.com', '380123212321', ['chery', 'skoda', 'jaguar', 'subary', 'saab', 'citroen', 'isuzu', 'hyundai', 'dacia']),
+//     new Client(8, 'Andriy', 'Pyatov', 'and1@gmail.com', '380888899665', ['acura', 'lincoln', 'lancia', 'baw', 'baojun', 'byd', 'changan']),
+//     new Client(3, 'Ruslan', 'Rotan', 'rotan14@gmail.com', '380124542666', ['gonow', 'derways', 'foton', 'fiqi', 'groz', 'hafei', 'jac', 'rely', ])
 // ];
 //
 // let sort = array.sort((a, b) => a.order.length - b.order.length);
