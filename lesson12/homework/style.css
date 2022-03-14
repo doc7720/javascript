@@ -1,0 +1,41 @@
+body {
+    margin-left: 150px;
+}
+
+.newClass {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.createDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    width: 250px;
+    height: 270px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(192, 192, 192), 0 0 20px rgb(192, 192, 192);
+}
+
+.post:hover {
+    background: #22bd1b;
+    transition: .5s;
+}
+
+.post h3 {
+    margin: 0;
+}
+
+.post h4 {
+    height: 40px;
+}
