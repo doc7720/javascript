@@ -1,0 +1,24 @@
+.user-details {
+    background: #22bd1b;
+
+}
+
+.postButton {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    background: yellow;
+    margin: 5px;
+    width: 100px;
+    margin-left: calc(10% - 50px);
+    margin-right: calc(10% - 50px);
+}

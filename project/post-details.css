@@ -1,0 +1,16 @@
+.post {
+    background: silver;
+    height: 50px;
+}
+
+.comment {
+    background: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment > li {
+    width: 120px;
+    background: antiquewhite;
+    margin: 15px;
+}
