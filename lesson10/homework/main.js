@@ -29,44 +29,44 @@
 
 // - Создайте меню, которое раскрывается/сворачивается при клике
 
-// let menuDiv = document.querySelector('.menu');
-// let listH1 = menuDiv.querySelector('.title');
-//
-// listH1.onclick = function () {
-//     menuDiv.classList.toggle('hidden');
-// }
+let menuDiv = document.querySelector('.menu');
+let listH1 = menuDiv.querySelector('.title');
+
+listH1.onclick = function () {
+    menuDiv.classList.toggle('hidden');
+}
 
 
 // - Создать список комментариев , пример объекта коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
 //     Вывести список комментариев в документ, каждый в своем блоке.
 //     Добавьте каждому комментарию по кнопке для сворачивания его body.
 
-// let comments = [
-//     {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-//     {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-//     {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-//     {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-//     {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-// ];
+let comments = [
+    {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+    {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+    {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+    {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+    {title: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+];
 //
-// let divCreate = document.createElement('div');
-// for (const element of comments) {
-//     let div = document.createElement('div');
-//     let h3 = document.createElement('h3');
-//     let p = document.createElement('p');
-//     let btn = document.createElement('button');
-//     let hr = document.createElement('hr');
-//
-//     h3.innerText = element.title;
-//     p.innerHTML = element.body;
-//     btn.innerHTML = 'Hide';
-//
-//     btn.onclick = () => {
-//         p.classList.add('pHidden');
-//     }
-//     div.append(h3, p, btn);
-//     divCreate.append(div, hr);
-// }
-// document.body.appendChild(divCreate);
+let divCreate = document.createElement('div');
+for (const element of comments) {
+    let div = document.createElement('div');
+    let h3 = document.createElement('h3');
+    let p = document.createElement('p');
+    let btn = document.createElement('button');
+    let hr = document.createElement('hr');
+
+    h3.innerText = element.title;
+    p.innerHTML = element.body;
+    btn.innerHTML = 'Hide';
+
+    btn.onclick = () => {
+        p.classList.add('pHidden');
+    }
+    div.append(h3, p, btn);
+    divCreate.append(div, hr);
+}
+document.body.appendChild(divCreate);
 
 
